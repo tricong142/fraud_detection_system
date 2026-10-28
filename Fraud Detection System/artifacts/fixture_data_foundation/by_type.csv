@@ -1,0 +1,3 @@
+type,transactions,fraud,nonfraud,fraud_rate
+PAYMENT,21,0,21,0.0
+TRANSFER,20,20,0,1.0

@@ -1,0 +1,74 @@
+{
+  "contract_version": "1.0.0",
+  "generated_at_utc": "2026-10-27T04:19:33.953517+00:00",
+  "data_kind": "synthetic_test_fixture",
+  "source": {
+    "declared_url": "https://www.kaggle.com/datasets/ealaxi/paysim1",
+    "slug": "ealaxi/paysim1",
+    "version": null,
+    "provenance_verified": false,
+    "note": "Declared source only. SHA-256 identifies local bytes, not source authenticity."
+  },
+  "raw": {
+    "filename": "synthetic_transactions.csv",
+    "sha256": "37e11033cf394a166c78a8a9200ea68418c96b9916da6c3958da7904fd860597",
+    "size_bytes": 2327,
+    "rows": 41,
+    "columns": 11
+  },
+  "runtime": {
+    "pandas": "2.2.2",
+    "pyarrow": "23.0.1",
+    "sqlite": "3.40.1"
+  },
+  "artifacts": {
+    "account_activity.parquet": {
+      "sha256": "951ef07ae648a316005e428242fc266494a6774562758e7230d73657df807e29",
+      "size_bytes": 16940
+    },
+    "account_count_distribution.csv": {
+      "sha256": "9d99e89bd8930904576b77992e541e7ac4e60a52ea49f15bd1d5aebdfbfd958c",
+      "size_bytes": 65
+    },
+    "audit_summary.json": {
+      "sha256": "05e28cc7d451d5cb7561f2115500b0d7fff9658fa3100975c37b29169575b15a",
+      "size_bytes": 1353
+    },
+    "by_step.csv": {
+      "sha256": "33e40f3f2ad44d988f031afc5fd1515c1db57f65ebef169b0c0d569cbd774816",
+      "size_bytes": 1111
+    },
+    "by_step_type.csv": {
+      "sha256": "9cb92893460f1fa0047ee136f0a4a89b122b4e241898608b3824dd03c73c8a97",
+      "size_bytes": 932
+    },
+    "by_type.csv": {
+      "sha256": "1cef29cd7414758a3a7028bde0a9eaf90208c2b4ac615f654fe2cea969145057",
+      "size_bytes": 88
+    },
+    "data_audit.md": {
+      "sha256": "cf1962cdf6e08009bf345e9c70e635b1df77234599296daed1df85beb0186cef",
+      "size_bytes": 5085
+    },
+    "feature_policy.md": {
+      "sha256": "9f15e0faefa947c03508935cc79db61708894cd05cc3f1093af9003562f09875",
+      "size_bytes": 5523
+    },
+    "split_definition.json": {
+      "sha256": "8b0656ff4664d9c042dbec304213aede82cef023e8800a5302ead44bdf8d59cf",
+      "size_bytes": 1588
+    },
+    "splits/test.parquet": {
+      "sha256": "6dd3a0684469c22f71f9068a5dca01b4923b0d35086e14e08b8a361e75259a0f",
+      "size_bytes": 12748
+    },
+    "splits/train.parquet": {
+      "sha256": "62c1e90537573e96cceea5b36fe5cd7f1df53677901cebe6dcbccc3458ee9ffb",
+      "size_bytes": 43572
+    },
+    "splits/validation.parquet": {
+      "sha256": "51baac4d75cceda9fc86d6023877766b510c16634b238192198def97e70e9f95",
+      "size_bytes": 12748
+    }
+  }
+}

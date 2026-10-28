@@ -1,0 +1,70 @@
+{
+  "contract_version": "1.0.0",
+  "raw_sha256": "37e11033cf394a166c78a8a9200ea68418c96b9916da6c3958da7904fd860597",
+  "method": "consecutive_observed_steps_floor_cumulative_ratio",
+  "train_ratio": 0.7,
+  "validation_ratio": 0.15,
+  "test_ratio": 0.15,
+  "decision": "Initial 70/15/15 observed-step policy; no automatic label-based adjustment.",
+  "history_rule": "step < prediction_step",
+  "shared_by_experiments": [
+    "E1",
+    "E2",
+    "E3"
+  ],
+  "splits": {
+    "train": {
+      "path": "splits/train.parquet",
+      "steps": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "step_min": 1,
+      "step_max": 14,
+      "rows": 29,
+      "fraud": 14,
+      "nonfraud": 15,
+      "sha256": "62c1e90537573e96cceea5b36fe5cd7f1df53677901cebe6dcbccc3458ee9ffb"
+    },
+    "validation": {
+      "path": "splits/validation.parquet",
+      "steps": [
+        15,
+        16,
+        17
+      ],
+      "step_min": 15,
+      "step_max": 17,
+      "rows": 6,
+      "fraud": 3,
+      "nonfraud": 3,
+      "sha256": "51baac4d75cceda9fc86d6023877766b510c16634b238192198def97e70e9f95"
+    },
+    "test": {
+      "path": "splits/test.parquet",
+      "steps": [
+        18,
+        19,
+        20
+      ],
+      "step_min": 18,
+      "step_max": 20,
+      "rows": 6,
+      "fraud": 3,
+      "nonfraud": 3,
+      "sha256": "6dd3a0684469c22f71f9068a5dca01b4923b0d35086e14e08b8a361e75259a0f"
+    }
+  }
+}

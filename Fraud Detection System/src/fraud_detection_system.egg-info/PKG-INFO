@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: fraud-detection-system
+Version: 0.1.0
+Summary: PaySim data foundation for a modular monolith fraud detection system
+Requires-Python: >=3.10
+Requires-Dist: pandas<3,>=2.2
+Requires-Dist: pyarrow<24,>=15
+Provides-Extra: download
+Requires-Dist: kaggle<3,>=1.7; extra == "download"
